@@ -20,6 +20,7 @@ def encode(password):
 
     return encoded_password
 
+
 if __name__ == '__main__':
     while True:
         menu()
