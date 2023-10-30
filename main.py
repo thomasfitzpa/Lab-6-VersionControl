@@ -29,6 +29,7 @@ if __name__ == '__main__':
             encoded_password = encode(password)
             print("Your password has been encoded and stored!")
         elif user_input == "2":
-            print("The encoded password is " + encoded_password + " , and the original password is " + password + ".")
+            decoded_password = decode(password)
+            print("The encoded password is " + encoded_password + " , and the original password is " + decoded_password + ".")
         elif user_input == "3":
             break
