@@ -15,4 +15,3 @@ def encode(password):
     return encoded_password
 
 
-print(encode("123456789"))
